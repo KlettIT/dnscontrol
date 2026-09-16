@@ -116,9 +116,6 @@ Once you have the token, use it in your `creds.json` as shown above.
     *   This makes it impossible to correctly configure external mail servers or
       nameservers.
 
-    **Workaround:** Create an internal A or CNAME record pointing to the external IP,
-    and reference that internal name instead.
-
 - ❌ **PTR records are not supported.**  
   FortiGate stores reverse DNS data unconventionally. PTR records are excluded to prevent inconsistencies.
 
